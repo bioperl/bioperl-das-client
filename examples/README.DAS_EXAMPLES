@@ -1,0 +1,26 @@
+README.DAS_EXAMPLES
+
+ See pod documentation inside DAS.pm
+
+---------------------------------------------------------------------------------------------------------------
+
+ das_get_dna_to_fasta.pl  - Fetch list of C.elegans sequences and write them to a FASTA file.
+ das_get_dna.pl           - Fetch a single C.elegans DNA sub-sequence
+ das_get_dsn.pl           - Get list of DSNs for a DAS server
+
+
+---------------------------------------------------------------------------------------------------------------
+
+NOTE:
+
+    DAS.pm needs the following packages (all available from CPAN see: http://search.cpan.org):
+
+        LWP - (from libwww-perl) for HTTP communication stuff. libwww-perl requires a number of
+        other modules also already be installed. Instructions on which ones, come with the libwww-perl
+        distribution. Installation is quite painless :-)
+
+        XML-Parser and XML-Simple - Again easy install of these CPAN modules. Install XML-Parser first.
+
+
+---------------------------------------------------------------------------------------------------------------
+
